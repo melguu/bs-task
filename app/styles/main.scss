@@ -7,5 +7,62 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 // endbower
 
 // your own css/scss
+/*.navbar.transparent.navbar-fluid {
+    padding: 1em;
+    color: white;
+    margin-left: 5em;
+}
+*/
+.navbar.transparent.navbar-fluid .navbar-inner .container-fluid a{
+    padding: 1em;
+    color: lightgrey;
+    margin-left: 5em;
+}
+
+.navbar.transparent.navbar-fluid .navbar-inner .container-fluid a:hover{
+    padding: 1em;
+    color: white;
+    margin-left: 5em;
+    background: none;
+}
+.navbar.transparent.navbar-fluid .navbar-inner .container-fluid ul .dropdown-toggle {
+    padding: 1em;
+    color: white;
+    margin-left: 5em;
+    background: rgba(0,0,0,0);
+}
+.navbar.transparent.navbar-fluid .navbar-inner .container-fluid ul .dropdown-menu{
+    padding: 1em;
+    color: white;
+    margin-left: 5em;
+    background: rgba(0,0,0,0.7);
+}
+
+#header {
+    background-image: url(../images/Aurora_banner_1.jpg);
+}
+body {
+    text-align: center;
+}
+.jumbotron {
+    background: rgba(0,0,0,0);
+    color: aliceblue;
+    margin: 0 5em 0 5em;
+}
+
+.jumbotron img {
+    max-height: 40%;
+}
+
+.jumbotron h1 {
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 40px;
+}
+
+#headerContent #nappi {
+    background: none;
+}
+
 
 // your own css/scss ends

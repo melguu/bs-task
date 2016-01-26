@@ -1,6 +1,7 @@
 <!doctype html>
 <html class="no-js" lang="">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <title>bootstrap</title>
     <meta name="description" content="">
@@ -20,24 +21,129 @@
     <!-- build:js scripts/vendor/modernizr.js -->
     <script src="/bower_components/modernizr/modernizr.js"></script>
     <!-- endbuild -->
-    
-  </head>
-  <body>
+
+</head>
+
+<body>
     <!--[if lt IE 10]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
     <!-- sisältö alkaa -->
-    Tähän sit jotain.
+    <!-- Static navbar -->
+    <div class="row" id="header">
+        <nav class="navbar transparent navbar-fluid">
+            <div class="navbar-inner">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" id="brand" href="#">Project name</a>
+                    </div>
+                    <div id="navbar" class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav">
+                            <!--<li class="active"><a href="#">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#contact">Contact</a></li>-->
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Action</a></li>
+                                    <li><a href="#">Another action</a></li>
+                                    <li><a href="#">Something else here</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li class="dropdown-header">Nav header</li>
+                                    <li><a href="#">Separated link</a></li>
+                                    <li><a href="#">One more separated link</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Action</a></li>
+                                    <li><a href="#">Another action</a></li>
+                                    <li><a href="#">Something else here</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li class="dropdown-header">Nav header</li>
+                                    <li><a href="#">Separated link</a></li>
+                                    <li><a href="#">One more separated link</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Action</a></li>
+                                    <li><a href="#">Another action</a></li>
+                                    <li><a href="#">Something else here</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li class="dropdown-header">Nav header</li>
+                                    <li><a href="#">Separated link</a></li>
+                                    <li><a href="#">One more separated link</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <!--<ul class="nav navbar-nav navbar-right">
+                            <li><a href="../navbar/">Default</a></li>
+                            <li class="active"><a href="./">Static top <span class="sr-only">(current)</span></a></li>
+                            <li><a href="../navbar-fixed-top/">Fixed top</a></li>
+                        </ul>-->
+                    </div>
+                    <!--/.nav-collapse -->
+                </div>
+            </div>
+        </nav>
+        <div class="jumbotron">
+            <div class="col-md-10">
+                <div class="col-md-1">
+                </div>
+                <div id="headerContent" class="col-md-7">
+                    <h3>The best interfaces for your web & mobile apps</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque mi sem, cursus non justo vel, lacinia vestibulum risus.</h3>
+                    <button class="btn btn-primary nappi">Nappi1</button>
+                    <button class="btn btn-default nappi">Nappi2</button>
+                </div>
+                <div class="col-md-4">
+                    <img class="" src="images/MACBOOKPRO.png"></img>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+
+        <div class="row" id="bodyTop">
+            <h3>Vähä sisältöö vähä</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque mi sem, cursus non justo vel, lacinia vestibulum risus.</p>
+        </div>
+
+        <div class="row" id="bodyCenter">
+            <div class="col-md-6">
+                <h3>Vähä sisältöö vähä</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque mi sem, cursus non justo vel, lacinia vestibulum risus. Curabitur non sollicitudin nunc. Pellentesque consectetur libero id lorem luctus blandit. Duis et iaculis nulla, sed lobortis nibh. Nulla luctus libero tincidunt ante porttitor mattis. Quisque ut massa eu arcu congue vehicula. Aliquam erat volutpat. Pellentesque eu tincidunt tortor, sit amet luctus justo.</p>
+            </div>
+            <div class="col-md-6"></div>
+        </div>
+
+        <div class="row" id="bodyBottom">
+            <div class="col-md-6"></div>
+            <div class="col-md-6">
+                <h3>Vähä sisältöö vähä</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque mi sem, cursus non justo vel, lacinia vestibulum risus. Curabitur non sollicitudin nunc. Pellentesque consectetur libero id lorem luctus blandit. Duis et iaculis nulla, sed lobortis nibh. Nulla luctus libero tincidunt ante porttitor mattis. Quisque ut massa eu arcu congue vehicula. Aliquam erat volutpat. Pellentesque eu tincidunt tortor, sit amet luctus justo.</p>
+            </div>
+        </div>
+    </div>
     <!-- sisältö loppuu -->
-      
+
     <!-- build:js(.) scripts/vendor.js -->
     <!-- bower:js -->
     <script src="/bower_components/jquery/dist/jquery.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 
-    
+
     <!-- build:js(.) scripts/plugins.js -->
     <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/affix.js"></script>
     <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/alert.js"></script>
@@ -52,11 +158,12 @@
     <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/collapse.js"></script>
     <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/tab.js"></script>
     <!-- endbuild -->
-    
+
 
     <!-- build:js scripts/main.js -->
     <script src="scripts/main.js"></script>
     <!-- endbuild -->
 
-  </body>
+</body>
+
 </html>
